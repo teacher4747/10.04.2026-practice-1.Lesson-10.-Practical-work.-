@@ -45,9 +45,9 @@ namespace _10._04._2026__practice_1_
             return true;
         }
 
-        /// <summary>
+        
         /// Сдвигает все модули на карте на указанное смещение.
-        /// </summary>
+        
         public static void ShiftMapCoords(AbstractModule[][] map, in Coord offset)
         {
             if (map == null) return;
